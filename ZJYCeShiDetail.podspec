@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
+Pod::Spec.new do |s| 
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZJYCeShiDetail"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "ZJYCeShiDetail."
 
   # This description is used to generate tags and improve search results.
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+  # s.requires_arc = true
 
   # s.subspec 'ZJYCeShiProtocolManager' do |protocolManager|
   #     protocolManager.source_files = 'Pod/Classes/**/*.{h,m}'
@@ -142,7 +142,7 @@ Pod::Spec.new do |s|
   # end
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "ZJYCeShiProtocolManager"
   s.dependency "ZJYCeShiDetailServiceProtocol"
+  s.dependency "ZJYCeShiProtocolManager"
 
 end

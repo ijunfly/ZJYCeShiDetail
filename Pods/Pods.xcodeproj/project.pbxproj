@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31E4A338F97F95C607AAFC1410416A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0493C90BD42F2C1CFB9B5FDF61269370 /* ZJYCeShiProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA9AF224E1C7310FB06BECC297DA37A /* ZJYCeShiProtocolManager-dummy.m */; };
+		138704211F8B0B162B8C9FDB25ABBF31 /* ZJYCeShiProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD013106ED9842CBD8E9BB0E2BCAC0E /* ZJYCeShiProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31E4A338F97F95C607AAFC1410416A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		4962F6CB48570A2158A1DE0ABD5F2537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		6D85C972D74EA29DD0297C0417227AFD /* Pods-ZJYCeShiDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB535BD7EE7521FEFA8E92FFFDE3B48 /* Pods-ZJYCeShiDetail-dummy.m */; };
-		825FD43A48E5DFDC65091D50AC0DC82F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		989CE91D0B80A98E926307BC4CDCB7F7 /* ZJYCeShiProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C575D6A75E29D5DBDFC30BD86C3FFB6E /* ZJYCeShiProtocolManager-dummy.m */; };
-		A06BB903F985F42DF0D77B4806C0B221 /* ZJYProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4462F3A7A4431E1D973A888F45BC9A8 /* ZJYProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BADF0E1C6D21B8813A76791398B98110 /* ZJYProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922FDEC72B76251B2275F9EAB932F0F /* ZJYProtocolManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF814DDD49E34B8550B7AF68CA6AEDD2 /* ZJYCeShiProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECA66F7952E28CD006100BB7E3A084 /* ZJYCeShiProtocolManager.m */; };
+		C3DE9CFF4DB9FE3CFB21A382AC4BFD7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,31 +27,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		098F584788E8F5204416B53D0D3C2DD1 /* ZJYCeShiDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiDetailServiceProtocol.h; path = ZJYCeShiDetailServiceProtocol/Classes/ZJYCeShiDetailServiceProtocol.h; sourceTree = "<group>"; };
+		0959404281BADAFD07A09E54BB92BE0B /* ZJYCeShiProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJYCeShiProtocolManager-prefix.pch"; sourceTree = "<group>"; };
 		0CD5C0A4CA21399F31512A5B26447406 /* Pods-ZJYCeShiDetail-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJYCeShiDetail-acknowledgements.plist"; sourceTree = "<group>"; };
+		22ECA66F7952E28CD006100BB7E3A084 /* ZJYCeShiProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYCeShiProtocolManager.m; path = ZJYCeShiProtocolManager/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.m; sourceTree = "<group>"; };
 		29EF70C3BFA0BA2F626D0F95A2436AA9 /* libZJYCeShiProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZJYCeShiProtocolManager.a; path = libZJYCeShiProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		86A5F06AC27DFE68ABBE09F3DFBFE564 /* ZJYCeShiProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJYCeShiProtocolManager.xcconfig; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9922FDEC72B76251B2275F9EAB932F0F /* ZJYProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYProtocolManager.m; path = ZJYCeShiProtocolManager/ZJYProtocolManager/ZJYProtocolManager.m; sourceTree = "<group>"; };
 		9A6F576ED6145A0ED1762AEB1359AD85 /* Pods-ZJYCeShiDetail-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJYCeShiDetail-frameworks.sh"; sourceTree = "<group>"; };
+		9FD013106ED9842CBD8E9BB0E2BCAC0E /* ZJYCeShiProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiProtocolManager.h; path = ZJYCeShiProtocolManager/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.h; sourceTree = "<group>"; };
 		A0477510EDEB2F9F20F6F4FCDDF1B528 /* Pods-ZJYCeShiDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJYCeShiDetail.release.xcconfig"; sourceTree = "<group>"; };
+		A54DEF6D568521BC2F32C3498E4EDB27 /* ZJYCeShiDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiDetailServiceProtocol.h; path = ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol.h; sourceTree = "<group>"; };
 		B5E9336A7D6E9D977F806209F420E416 /* Pods-ZJYCeShiDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJYCeShiDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		C3C4C74A767628DE92296151903F0CB9 /* libPods-ZJYCeShiDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZJYCeShiDetail.a"; path = "libPods-ZJYCeShiDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C575D6A75E29D5DBDFC30BD86C3FFB6E /* ZJYCeShiProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJYCeShiProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		C6818F7B832B5ACFFB3152516BE6A15A /* ZJYCeShiProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJYCeShiProtocolManager.xcconfig; sourceTree = "<group>"; };
 		CAB535BD7EE7521FEFA8E92FFFDE3B48 /* Pods-ZJYCeShiDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJYCeShiDetail-dummy.m"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DC548306AA0A1E3C6E4D53AF8823564C /* ZJYCeShiProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJYCeShiProtocolManager-prefix.pch"; sourceTree = "<group>"; };
-		E4462F3A7A4431E1D973A888F45BC9A8 /* ZJYProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYProtocolManager.h; path = ZJYCeShiProtocolManager/ZJYProtocolManager/ZJYProtocolManager.h; sourceTree = "<group>"; };
+		CFA9AF224E1C7310FB06BECC297DA37A /* ZJYCeShiProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJYCeShiProtocolManager-dummy.m"; sourceTree = "<group>"; };
 		F501A1E11F5DEB8B21E7F5600D93940F /* Pods-ZJYCeShiDetail-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJYCeShiDetail-resources.sh"; sourceTree = "<group>"; };
 		FFD2D551082F4ACD18082DE14293C39A /* Pods-ZJYCeShiDetail-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJYCeShiDetail-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91E43A421F61F3CCDCBFF13699CDAD5A /* Frameworks */ = {
+		A3F6212115274C5B640CC5423E6FF6E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825FD43A48E5DFDC65091D50AC0DC82F /* Foundation.framework in Frameworks */,
+				4962F6CB48570A2158A1DE0ABD5F2537 /* Foundation.framework in Frameworks */,
+				C3DE9CFF4DB9FE3CFB21A382AC4BFD7C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,24 +68,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A5ADE56875E2D20A4FC35C4549CCB51 /* ZJYCeShiDetailServiceProtocol */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				098F584788E8F5204416B53D0D3C2DD1 /* ZJYCeShiDetailServiceProtocol.h */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
-			name = ZJYCeShiDetailServiceProtocol;
-			path = ZJYCeShiDetailServiceProtocol;
-			sourceTree = "<group>";
-		};
-		586776033909988ED825875BAA55F072 /* ZJYCeShiProtocolManager */ = {
-			isa = PBXGroup;
-			children = (
-				E4462F3A7A4431E1D973A888F45BC9A8 /* ZJYProtocolManager.h */,
-				9922FDEC72B76251B2275F9EAB932F0F /* ZJYProtocolManager.m */,
-				647422E3AE6C8066010C5857EC5775C9 /* Support Files */,
-			);
-			name = ZJYCeShiProtocolManager;
-			path = ZJYCeShiProtocolManager;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		58D100BCB984ACCD89ECF8674A3963CE /* Pods-ZJYCeShiDetail */ = {
@@ -100,39 +91,31 @@
 			path = "Target Support Files/Pods-ZJYCeShiDetail";
 			sourceTree = "<group>";
 		};
-		647422E3AE6C8066010C5857EC5775C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				86A5F06AC27DFE68ABBE09F3DFBFE564 /* ZJYCeShiProtocolManager.xcconfig */,
-				C575D6A75E29D5DBDFC30BD86C3FFB6E /* ZJYCeShiProtocolManager-dummy.m */,
-				DC548306AA0A1E3C6E4D53AF8823564C /* ZJYCeShiProtocolManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZJYCeShiProtocolManager";
-			sourceTree = "<group>";
-		};
 		67B7D1C5B291244A29C4F5A21404F7D7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A5ADE56875E2D20A4FC35C4549CCB51 /* ZJYCeShiDetailServiceProtocol */,
-				586776033909988ED825875BAA55F072 /* ZJYCeShiProtocolManager */,
+				A19870E830A49D7F41287DB52E8DC62A /* ZJYCeShiDetailServiceProtocol */,
+				D258288935E2A9AC5769C389800551AD /* ZJYCeShiProtocolManager */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		6BC515F3CA14A6C6024E63B71CAB8198 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				C6818F7B832B5ACFFB3152516BE6A15A /* ZJYCeShiProtocolManager.xcconfig */,
+				CFA9AF224E1C7310FB06BECC297DA37A /* ZJYCeShiProtocolManager-dummy.m */,
+				0959404281BADAFD07A09E54BB92BE0B /* ZJYCeShiProtocolManager-prefix.pch */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/ZJYCeShiProtocolManager";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				67B7D1C5B291244A29C4F5A21404F7D7 /* Pods */,
 				981443CB572A72711988ACE891ADBE77 /* Products */,
 				A1CB7A9AB4F5F9E07C04710BFEEFDC34 /* Targets Support Files */,
@@ -148,6 +131,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A19870E830A49D7F41287DB52E8DC62A /* ZJYCeShiDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				A54DEF6D568521BC2F32C3498E4EDB27 /* ZJYCeShiDetailServiceProtocol.h */,
+			);
+			name = ZJYCeShiDetailServiceProtocol;
+			path = ZJYCeShiDetailServiceProtocol;
+			sourceTree = "<group>";
+		};
 		A1CB7A9AB4F5F9E07C04710BFEEFDC34 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,22 +148,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D258288935E2A9AC5769C389800551AD /* ZJYCeShiProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				9FD013106ED9842CBD8E9BB0E2BCAC0E /* ZJYCeShiProtocolManager.h */,
+				22ECA66F7952E28CD006100BB7E3A084 /* ZJYCeShiProtocolManager.m */,
+				6BC515F3CA14A6C6024E63B71CAB8198 /* Support Files */,
 			);
-			name = Frameworks;
+			name = ZJYCeShiProtocolManager;
+			path = ZJYCeShiProtocolManager;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6D27FB6CDE012BFBB1CF7958F43E4293 /* Headers */ = {
+		42495D40D15722178383B2B78458FC36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06BB903F985F42DF0D77B4806C0B221 /* ZJYProtocolManager.h in Headers */,
+				138704211F8B0B162B8C9FDB25ABBF31 /* ZJYCeShiProtocolManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,9 +203,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C5A59385568862C437F6CC1682F77CE /* Build configuration list for PBXNativeTarget "ZJYCeShiProtocolManager" */;
 			buildPhases = (
-				3B671EEC5CB099F408EA7464141A50AD /* Sources */,
-				91E43A421F61F3CCDCBFF13699CDAD5A /* Frameworks */,
-				6D27FB6CDE012BFBB1CF7958F43E4293 /* Headers */,
+				39B37AEC712F7B258C189A5444FAEBC5 /* Sources */,
+				A3F6212115274C5B640CC5423E6FF6E6 /* Frameworks */,
+				42495D40D15722178383B2B78458FC36 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -240,12 +244,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B671EEC5CB099F408EA7464141A50AD /* Sources */ = {
+		39B37AEC712F7B258C189A5444FAEBC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989CE91D0B80A98E926307BC4CDCB7F7 /* ZJYCeShiProtocolManager-dummy.m in Sources */,
-				BADF0E1C6D21B8813A76791398B98110 /* ZJYProtocolManager.m in Sources */,
+				0493C90BD42F2C1CFB9B5FDF61269370 /* ZJYCeShiProtocolManager-dummy.m in Sources */,
+				AF814DDD49E34B8550B7AF68CA6AEDD2 /* ZJYCeShiProtocolManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02BC083F44630FCF065BBA75FF70669E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6818F7B832B5ACFFB3152516BE6A15A /* ZJYCeShiProtocolManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		113AF9704022982B56F6A46B5D88D9CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0477510EDEB2F9F20F6F4FCDDF1B528 /* Pods-ZJYCeShiDetail.release.xcconfig */;
@@ -291,29 +318,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
-		};
-		660EA743CFF5B6A740A124A7E9AFCC1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86A5F06AC27DFE68ABBE09F3DFBFE564 /* ZJYCeShiProtocolManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 		673254EEAF0B5BF4596080C749645884 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -355,9 +359,9 @@
 			};
 			name = Release;
 		};
-		845290AD588374F7CBA1078139629B6D /* Release */ = {
+		92E3C75494819D7695C05B46A86B1367 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86A5F06AC27DFE68ABBE09F3DFBFE564 /* ZJYCeShiProtocolManager.xcconfig */;
+			baseConfigurationReference = C6818F7B832B5ACFFB3152516BE6A15A /* ZJYCeShiProtocolManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -366,7 +370,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -460,8 +464,8 @@
 		3C5A59385568862C437F6CC1682F77CE /* Build configuration list for PBXNativeTarget "ZJYCeShiProtocolManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				660EA743CFF5B6A740A124A7E9AFCC1C /* Debug */,
-				845290AD588374F7CBA1078139629B6D /* Release */,
+				02BC083F44630FCF065BBA75FF70669E /* Debug */,
+				92E3C75494819D7695C05B46A86B1367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

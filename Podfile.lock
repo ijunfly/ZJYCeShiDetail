@@ -1,14 +1,14 @@
 PODS:
-  - ZJYCeShiDetailServiceProtocol (0.0.2)
-  - ZJYCeShiProtocolManager (0.0.1)
+  - ZJYCeShiDetailServiceProtocol (0.0.4)
+  - ZJYCeShiProtocolManager (0.0.4)
 
 DEPENDENCIES:
   - ZJYCeShiDetailServiceProtocol
   - ZJYCeShiProtocolManager
 
 SPEC CHECKSUMS:
-  ZJYCeShiDetailServiceProtocol: a81f439e54ecfe14dfa6650cd31793313caf0b89
-  ZJYCeShiProtocolManager: 4e9a413e922979fa4521321394de9f273606f838
+  ZJYCeShiDetailServiceProtocol: 1c98050b584c37112fd3adfdb43ae20d65a1c45a
+  ZJYCeShiProtocolManager: 9b0c1e4643415f01c992cb26e31350e4bd0b308b
 
 PODFILE CHECKSUM: 4078c57a5c435ce24561a31ccc472011205971aa
 

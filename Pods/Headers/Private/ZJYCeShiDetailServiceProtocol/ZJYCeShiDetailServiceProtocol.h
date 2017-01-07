@@ -1,1 +1,1 @@
-../../../ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol/Classes/ZJYCeShiDetailServiceProtocol.h
+../../../ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol.h
