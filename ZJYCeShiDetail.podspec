@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZJYCeShiDetail"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "ZJYCeShiDetail."
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+  s.platform     = :ios, "7.0"
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ijunfly/ZJYCeShiDetail.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ijunfly/ZJYCeShiDetail.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -142,7 +142,7 @@ Pod::Spec.new do |s|
   # end
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "ZJYCeShiProtocolManager"
-  s.dependency "ZJYCeShiDetailServiceProtocol"
+  s.dependencies "ZJYCeShiProtocolManager"
+  s.dependencies "ZJYCeShiDetailServiceProtocol"
 
 end
