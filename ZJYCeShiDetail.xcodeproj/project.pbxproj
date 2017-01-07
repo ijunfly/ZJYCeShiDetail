@@ -13,8 +13,8 @@
 		189615731E1F89ED0066A3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189615711E1F89ED0066A3B7 /* Main.storyboard */; };
 		189615751E1F89ED0066A3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189615741E1F89ED0066A3B7 /* Assets.xcassets */; };
 		189615781E1F89ED0066A3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189615761E1F89ED0066A3B7 /* LaunchScreen.storyboard */; };
-		1896158C1E1F9D220066A3B7 /* ZJYCeShiDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 189615891E1F9D220066A3B7 /* ZJYCeShiDetailServiceProvide.m */; };
-		1896158D1E1F9D220066A3B7 /* ZJYCeShiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896158B1E1F9D220066A3B7 /* ZJYCeShiDetailViewController.m */; };
+		1896159C1E20BFB60066A3B7 /* ZJYCeShiDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 189615991E20BFB60066A3B7 /* ZJYCeShiDetailServiceProvide.m */; };
+		1896159D1E20BFB60066A3B7 /* ZJYCeShiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896159B1E20BFB60066A3B7 /* ZJYCeShiDetailViewController.m */; };
 		3299415DFBE0D4BBAF66AF48 /* libPods-ZJYCeShiDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2FEBCFCF050CCEEDBDC03B /* libPods-ZJYCeShiDetail.a */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +29,10 @@
 		189615741E1F89ED0066A3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189615771E1F89ED0066A3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189615791E1F89ED0066A3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		189615881E1F9D220066A3B7 /* ZJYCeShiDetailServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYCeShiDetailServiceProvide.h; sourceTree = "<group>"; };
-		189615891E1F9D220066A3B7 /* ZJYCeShiDetailServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYCeShiDetailServiceProvide.m; sourceTree = "<group>"; };
-		1896158A1E1F9D220066A3B7 /* ZJYCeShiDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYCeShiDetailViewController.h; sourceTree = "<group>"; };
-		1896158B1E1F9D220066A3B7 /* ZJYCeShiDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYCeShiDetailViewController.m; sourceTree = "<group>"; };
+		189615981E20BFB60066A3B7 /* ZJYCeShiDetailServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYCeShiDetailServiceProvide.h; sourceTree = "<group>"; };
+		189615991E20BFB60066A3B7 /* ZJYCeShiDetailServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYCeShiDetailServiceProvide.m; sourceTree = "<group>"; };
+		1896159A1E20BFB60066A3B7 /* ZJYCeShiDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYCeShiDetailViewController.h; sourceTree = "<group>"; };
+		1896159B1E20BFB60066A3B7 /* ZJYCeShiDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYCeShiDetailViewController.m; sourceTree = "<group>"; };
 		2DFB8C9CC7D988DAD0BB37B1 /* Pods-ZJYCeShiDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJYCeShiDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJYCeShiDetail/Pods-ZJYCeShiDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		9B2FEBCFCF050CCEEDBDC03B /* libPods-ZJYCeShiDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJYCeShiDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE923843EA141B622F367B8A /* Pods-ZJYCeShiDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJYCeShiDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJYCeShiDetail/Pods-ZJYCeShiDetail.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,11 +71,11 @@
 		189615671E1F89ED0066A3B7 /* ZJYCeShiDetail */ = {
 			isa = PBXGroup;
 			children = (
+				189615971E20BFB60066A3B7 /* ZJYCeShiDetail */,
 				1896156B1E1F89ED0066A3B7 /* AppDelegate.h */,
 				1896156C1E1F89ED0066A3B7 /* AppDelegate.m */,
 				1896156E1E1F89ED0066A3B7 /* ViewController.h */,
 				1896156F1E1F89ED0066A3B7 /* ViewController.m */,
-				189615871E1F9D220066A3B7 /* Classes */,
 				189615711E1F89ED0066A3B7 /* Main.storyboard */,
 				189615741E1F89ED0066A3B7 /* Assets.xcassets */,
 				189615761E1F89ED0066A3B7 /* LaunchScreen.storyboard */,
@@ -93,15 +93,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		189615871E1F9D220066A3B7 /* Classes */ = {
+		189615971E20BFB60066A3B7 /* ZJYCeShiDetail */ = {
 			isa = PBXGroup;
 			children = (
-				189615881E1F9D220066A3B7 /* ZJYCeShiDetailServiceProvide.h */,
-				189615891E1F9D220066A3B7 /* ZJYCeShiDetailServiceProvide.m */,
-				1896158A1E1F9D220066A3B7 /* ZJYCeShiDetailViewController.h */,
-				1896158B1E1F9D220066A3B7 /* ZJYCeShiDetailViewController.m */,
+				189615981E20BFB60066A3B7 /* ZJYCeShiDetailServiceProvide.h */,
+				189615991E20BFB60066A3B7 /* ZJYCeShiDetailServiceProvide.m */,
+				1896159A1E20BFB60066A3B7 /* ZJYCeShiDetailViewController.h */,
+				1896159B1E20BFB60066A3B7 /* ZJYCeShiDetailViewController.m */,
 			);
-			path = Classes;
+			path = ZJYCeShiDetail;
 			sourceTree = "<group>";
 		};
 		5FAC0E6058C21FDFC16AA19E /* Frameworks */ = {
@@ -243,11 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1896158D1E1F9D220066A3B7 /* ZJYCeShiDetailViewController.m in Sources */,
+				1896159D1E20BFB60066A3B7 /* ZJYCeShiDetailViewController.m in Sources */,
 				189615701E1F89ED0066A3B7 /* ViewController.m in Sources */,
 				1896156D1E1F89ED0066A3B7 /* AppDelegate.m in Sources */,
 				1896156A1E1F89ED0066A3B7 /* main.m in Sources */,
-				1896158C1E1F9D220066A3B7 /* ZJYCeShiDetailServiceProvide.m in Sources */,
+				1896159C1E20BFB60066A3B7 /* ZJYCeShiDetailServiceProvide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
