@@ -10,7 +10,7 @@
 #import "ZJYCeShiDetailViewController.h"
 
 #import <ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol.h>
-#import <ZJYCeShiProtocolManager/ZJYProtocolManager.h>
+#import <ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.h>
 
 @interface ZJYCeShiDetailServiceProvide()<ZJYCeShiDetailServiceProtocol>
 
@@ -20,7 +20,7 @@
 
 + (void)load
 {
-    [ZJYProtocolManager registServiceProvide:[[self alloc] init] forProtocol:@protocol(ZJYCeShiDetailServiceProtocol)];
+    [ZJYCeShiProtocolManager registServiceProvide:[[self alloc] init] forProtocol:@protocol(ZJYCeShiDetailServiceProtocol)];
 }
 
 - (UIViewController *)ceshiDetailViewControllerWithGoodsId:(NSString*)goodsId goodsName:(NSString *)goodsName
