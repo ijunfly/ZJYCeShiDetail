@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZJYCeShiDetail"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "ZJYCeShiDetail."
 
   # This description is used to generate tags and improve search results.
@@ -142,6 +142,7 @@ Pod::Spec.new do |s|
   # end
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.dependency "ZJYCeShiConfirmOrderServiceProtocol"
   s.dependency "ZJYCeShiDetailServiceProtocol"
   s.dependency "ZJYCeShiProtocolManager"
 
