@@ -7,6 +7,8 @@
 //
 
 #import "ZJYCeShiDetailViewController.h"
+#import <ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.h>
+#import <ZJYCeShiConfirmOrderServiceProtocol/ZJYCeShiConfirmOrderServiceProtocol.h>
 
 @interface ZJYCeShiDetailViewController ()
 
@@ -51,7 +53,13 @@
 #pragma mark - event
 - (void)didClickBuyButton:(UIButton *)button
 {
-    
+    id <ZJYCeShiConfirmOrderServiceProtocol> provide = [ZJYCeShiProtocolManager serviceProvideForProtocol:@protocol(ZJYCeShiConfirmOrderServiceProtocol)];
+    UIViewController *confirmOrderVC = [provide confirmOrderViewControllerWithGoodsId:self.goodsId sureComplete:^{
+        self.statusLabel.text = @"购买成功";
+    }];
+    if (confirmOrderVC) {
+        [self presentViewController:confirmOrderVC animated:YES completion:nil];
+    }
 }
 
 #pragma mark - getters

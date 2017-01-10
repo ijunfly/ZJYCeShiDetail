@@ -5,5 +5,6 @@ target 'ZJYCeShiDetail' do
 
 pod "ZJYCeShiProtocolManager"
 pod "ZJYCeShiDetailServiceProtocol"
+pod "ZJYCeShiConfirmOrderServiceProtocol"
 
 end

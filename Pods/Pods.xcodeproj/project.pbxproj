@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0493C90BD42F2C1CFB9B5FDF61269370 /* ZJYCeShiProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA9AF224E1C7310FB06BECC297DA37A /* ZJYCeShiProtocolManager-dummy.m */; };
-		138704211F8B0B162B8C9FDB25ABBF31 /* ZJYCeShiProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD013106ED9842CBD8E9BB0E2BCAC0E /* ZJYCeShiProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0493C90BD42F2C1CFB9B5FDF61269370 /* ZJYCeShiProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21948E137243626F9669DD8345AD97A /* ZJYCeShiProtocolManager-dummy.m */; };
+		138704211F8B0B162B8C9FDB25ABBF31 /* ZJYCeShiProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA334AD07E8A715A5B4093F2A98EB68 /* ZJYCeShiProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31E4A338F97F95C607AAFC1410416A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		4962F6CB48570A2158A1DE0ABD5F2537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		6D85C972D74EA29DD0297C0417227AFD /* Pods-ZJYCeShiDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB535BD7EE7521FEFA8E92FFFDE3B48 /* Pods-ZJYCeShiDetail-dummy.m */; };
-		AF814DDD49E34B8550B7AF68CA6AEDD2 /* ZJYCeShiProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECA66F7952E28CD006100BB7E3A084 /* ZJYCeShiProtocolManager.m */; };
+		AF814DDD49E34B8550B7AF68CA6AEDD2 /* ZJYCeShiProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 382FFA43FC714C901BF4B727B014EFAC /* ZJYCeShiProtocolManager.m */; };
 		C3DE9CFF4DB9FE3CFB21A382AC4BFD7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,22 +27,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0959404281BADAFD07A09E54BB92BE0B /* ZJYCeShiProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJYCeShiProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		006984AC1A2126908466DF1B1952F24E /* ZJYCeShiProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJYCeShiProtocolManager.xcconfig; sourceTree = "<group>"; };
 		0CD5C0A4CA21399F31512A5B26447406 /* Pods-ZJYCeShiDetail-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJYCeShiDetail-acknowledgements.plist"; sourceTree = "<group>"; };
-		22ECA66F7952E28CD006100BB7E3A084 /* ZJYCeShiProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYCeShiProtocolManager.m; path = ZJYCeShiProtocolManager/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.m; sourceTree = "<group>"; };
 		29EF70C3BFA0BA2F626D0F95A2436AA9 /* libZJYCeShiProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZJYCeShiProtocolManager.a; path = libZJYCeShiProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0981F246C839D8AE142025DD4459C1 /* ZJYCeShiProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJYCeShiProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		382FFA43FC714C901BF4B727B014EFAC /* ZJYCeShiProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJYCeShiProtocolManager.m; path = ZJYCeShiProtocolManager/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.m; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EA334AD07E8A715A5B4093F2A98EB68 /* ZJYCeShiProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiProtocolManager.h; path = ZJYCeShiProtocolManager/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.h; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A6F576ED6145A0ED1762AEB1359AD85 /* Pods-ZJYCeShiDetail-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJYCeShiDetail-frameworks.sh"; sourceTree = "<group>"; };
-		9FD013106ED9842CBD8E9BB0E2BCAC0E /* ZJYCeShiProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiProtocolManager.h; path = ZJYCeShiProtocolManager/ZJYCeShiProtocolManager/ZJYCeShiProtocolManager.h; sourceTree = "<group>"; };
 		A0477510EDEB2F9F20F6F4FCDDF1B528 /* Pods-ZJYCeShiDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJYCeShiDetail.release.xcconfig"; sourceTree = "<group>"; };
-		A54DEF6D568521BC2F32C3498E4EDB27 /* ZJYCeShiDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiDetailServiceProtocol.h; path = ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol.h; sourceTree = "<group>"; };
+		A21948E137243626F9669DD8345AD97A /* ZJYCeShiProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJYCeShiProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		B23A66542CE1A94BBCED4A6D497C24AC /* ZJYCeShiConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiConfirmOrderServiceProtocol.h; path = ZJYCeShiConfirmOrderServiceProtocol/ZJYCeShiConfirmOrderServiceProtocol/ZJYCeShiConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
 		B5E9336A7D6E9D977F806209F420E416 /* Pods-ZJYCeShiDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJYCeShiDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		C3C4C74A767628DE92296151903F0CB9 /* libPods-ZJYCeShiDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZJYCeShiDetail.a"; path = "libPods-ZJYCeShiDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6818F7B832B5ACFFB3152516BE6A15A /* ZJYCeShiProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJYCeShiProtocolManager.xcconfig; sourceTree = "<group>"; };
 		CAB535BD7EE7521FEFA8E92FFFDE3B48 /* Pods-ZJYCeShiDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJYCeShiDetail-dummy.m"; sourceTree = "<group>"; };
-		CFA9AF224E1C7310FB06BECC297DA37A /* ZJYCeShiProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJYCeShiProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		F1B52AC7AE44BEEF4D178DA503926FA0 /* ZJYCeShiDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJYCeShiDetailServiceProtocol.h; path = ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol/ZJYCeShiDetailServiceProtocol.h; sourceTree = "<group>"; };
 		F501A1E11F5DEB8B21E7F5600D93940F /* Pods-ZJYCeShiDetail-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJYCeShiDetail-resources.sh"; sourceTree = "<group>"; };
 		FFD2D551082F4ACD18082DE14293C39A /* Pods-ZJYCeShiDetail-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJYCeShiDetail-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +69,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7F60E2B5348745CD2C89B8A1F6911B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				006984AC1A2126908466DF1B1952F24E /* ZJYCeShiProtocolManager.xcconfig */,
+				A21948E137243626F9669DD8345AD97A /* ZJYCeShiProtocolManager-dummy.m */,
+				2A0981F246C839D8AE142025DD4459C1 /* ZJYCeShiProtocolManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZJYCeShiProtocolManager";
+			sourceTree = "<group>";
+		};
+		2593DAB8EAB86170BB8FC89C2C6494B6 /* ZJYCeShiConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				B23A66542CE1A94BBCED4A6D497C24AC /* ZJYCeShiConfirmOrderServiceProtocol.h */,
+			);
+			name = ZJYCeShiConfirmOrderServiceProtocol;
+			path = ZJYCeShiConfirmOrderServiceProtocol;
+			sourceTree = "<group>";
+		};
+		2D51F7DF71EBE9A86197CE488E128322 /* ZJYCeShiDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				F1B52AC7AE44BEEF4D178DA503926FA0 /* ZJYCeShiDetailServiceProtocol.h */,
+			);
+			name = ZJYCeShiDetailServiceProtocol;
+			path = ZJYCeShiDetailServiceProtocol;
+			sourceTree = "<group>";
+		};
+		352DF2F232275A0FFE087EEE536BDB33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2593DAB8EAB86170BB8FC89C2C6494B6 /* ZJYCeShiConfirmOrderServiceProtocol */,
+				2D51F7DF71EBE9A86197CE488E128322 /* ZJYCeShiDetailServiceProtocol */,
+				84FD131608E75CEB82E8E12980567AD7 /* ZJYCeShiProtocolManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,35 +131,26 @@
 			path = "Target Support Files/Pods-ZJYCeShiDetail";
 			sourceTree = "<group>";
 		};
-		67B7D1C5B291244A29C4F5A21404F7D7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A19870E830A49D7F41287DB52E8DC62A /* ZJYCeShiDetailServiceProtocol */,
-				D258288935E2A9AC5769C389800551AD /* ZJYCeShiProtocolManager */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6BC515F3CA14A6C6024E63B71CAB8198 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6818F7B832B5ACFFB3152516BE6A15A /* ZJYCeShiProtocolManager.xcconfig */,
-				CFA9AF224E1C7310FB06BECC297DA37A /* ZJYCeShiProtocolManager-dummy.m */,
-				0959404281BADAFD07A09E54BB92BE0B /* ZJYCeShiProtocolManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZJYCeShiProtocolManager";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				67B7D1C5B291244A29C4F5A21404F7D7 /* Pods */,
+				352DF2F232275A0FFE087EEE536BDB33 /* Pods */,
 				981443CB572A72711988ACE891ADBE77 /* Products */,
 				A1CB7A9AB4F5F9E07C04710BFEEFDC34 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		84FD131608E75CEB82E8E12980567AD7 /* ZJYCeShiProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				7EA334AD07E8A715A5B4093F2A98EB68 /* ZJYCeShiProtocolManager.h */,
+				382FFA43FC714C901BF4B727B014EFAC /* ZJYCeShiProtocolManager.m */,
+				1F7F60E2B5348745CD2C89B8A1F6911B /* Support Files */,
+			);
+			name = ZJYCeShiProtocolManager;
+			path = ZJYCeShiProtocolManager;
 			sourceTree = "<group>";
 		};
 		981443CB572A72711988ACE891ADBE77 /* Products */ = {
@@ -131,32 +162,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A19870E830A49D7F41287DB52E8DC62A /* ZJYCeShiDetailServiceProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				A54DEF6D568521BC2F32C3498E4EDB27 /* ZJYCeShiDetailServiceProtocol.h */,
-			);
-			name = ZJYCeShiDetailServiceProtocol;
-			path = ZJYCeShiDetailServiceProtocol;
-			sourceTree = "<group>";
-		};
 		A1CB7A9AB4F5F9E07C04710BFEEFDC34 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				58D100BCB984ACCD89ECF8674A3963CE /* Pods-ZJYCeShiDetail */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D258288935E2A9AC5769C389800551AD /* ZJYCeShiProtocolManager */ = {
-			isa = PBXGroup;
-			children = (
-				9FD013106ED9842CBD8E9BB0E2BCAC0E /* ZJYCeShiProtocolManager.h */,
-				22ECA66F7952E28CD006100BB7E3A084 /* ZJYCeShiProtocolManager.m */,
-				6BC515F3CA14A6C6024E63B71CAB8198 /* Support Files */,
-			);
-			name = ZJYCeShiProtocolManager;
-			path = ZJYCeShiProtocolManager;
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -319,7 +330,7 @@
 		};
 		02BC083F44630FCF065BBA75FF70669E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6818F7B832B5ACFFB3152516BE6A15A /* ZJYCeShiProtocolManager.xcconfig */;
+			baseConfigurationReference = 006984AC1A2126908466DF1B1952F24E /* ZJYCeShiProtocolManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -428,7 +439,7 @@
 		};
 		92E3C75494819D7695C05B46A86B1367 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6818F7B832B5ACFFB3152516BE6A15A /* ZJYCeShiProtocolManager.xcconfig */;
+			baseConfigurationReference = 006984AC1A2126908466DF1B1952F24E /* ZJYCeShiProtocolManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
